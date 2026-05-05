@@ -83,6 +83,19 @@ import { identity, experience, education, skills, languages } from '@/data/resum
   gap: 48px;
 }
 
+@media (max-width: 640px) {
+  .resume {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .job-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+}
+
 /* ── Sidebar ── */
 .sidebar-section { margin-bottom: 4px; }
 

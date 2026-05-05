@@ -116,4 +116,30 @@ import { RouterLink, RouterView } from 'vue-router'
   margin: 0 auto;
   padding: 40px 32px 80px;
 }
+
+@media (max-width: 640px) {
+  .header-inner {
+    padding: 0 16px;
+  }
+
+  .identity {
+    padding-bottom: 10px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .role {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 8px 12px;
+  }
+
+  .site-main {
+    padding: 24px 16px 60px;
+  }
+}
 </style>
